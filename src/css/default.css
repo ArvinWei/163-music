@@ -18,8 +18,7 @@ body{
 	height: 100vh;
 }
 .page > aside {
-   width: 300px;
-   border: 1px solid red;
+	width: 300px;
 }
 .page > main{
 	flex-grow: 1;
@@ -38,8 +37,10 @@ body{
 .newSong.active{
 	background: #d4d4d4;
 }
-.songList{
+#songlist-container{
 	flex-grow: 1;
+}
+.songList{
 	text-align: left;
 	border-top: 1px solid #999;
 }
@@ -47,19 +48,20 @@ body{
 	border-bottom: 1px solid #ddd;
 	padding: 10px;
 }
-.songLIst > li.active{
+.songList > li.active{
 	background: #d4d4d4;
 }
 .uploadArea{}
 .draggable{
-    padding: 50px 80px;
-    border-radius: 20px;
-    border: 2px dashed #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    flex-direction: column;
+	text-align: center;
+	padding: 50px;
+	border-radius: 4px;
+	border: 2px dashed #ddd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	flex-direction: column;
 } 
 .clickable{
 	cursor: pointer;
